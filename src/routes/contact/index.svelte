@@ -59,7 +59,12 @@
 
 	<p class="m-auto font-medium text-sm my-[2rem]">
 		Site développé par
-		<span class="underline cursor-pointer" on:click={() => 'mailto:toto44.2000@gmail.com'}>
+		<span
+			class="underline cursor-pointer"
+			on:click={() => {
+				window.open('https://www.linkedin.com/in/thomas-clouet-7379241a3/', '_blank').focus();
+			}}
+		>
 			Thomas Clouet
 		</span>
 		.

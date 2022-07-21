@@ -9,7 +9,8 @@
 
 	// travailler sur grand ecran pour mettre les max-h
 
-	// Pinterest
+	// TODO redesigner la barre de scroll et la mettre en absolute pour les hauteur en vh
+	// comme ça quand la barre horizontale pop on a pas le scroll vertical qui pop avec à cause des vh
 </script>
 
 <div
