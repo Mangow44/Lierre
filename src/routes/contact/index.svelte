@@ -7,13 +7,13 @@
 	let socialNetworks = [
 		{ name: 'Twitter', url: 'https://twitter.com/lierre_art' },
 		{ name: 'Instagram', url: 'https://www.instagram.com/lierre_art/' },
-		{ name: 'Pinterest', url: 'ok' },
+		{ name: 'Pinterest', url: 'https://pin.it/2aZ8cTK' },
 		{ name: 'Email', url: 'lipazaran.is.here@gmail.com' }
 	];
 </script>
 
 <div
-	class="flex flex-col h-[calc(100vh-5rem)] w-screen pt-16
+	class="flex flex-col h-[calc(100vh-5rem)] w-full pt-16
         min-h-[450px] min-w-[265px]"
 >
 	<div class="my-auto">

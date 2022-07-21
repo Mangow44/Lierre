@@ -4,7 +4,8 @@ module.exports = {
 	theme: {
 		extend: {
 			fontFamily: {
-				morris: ['MORRIS', 'sans-serif']
+				morris: ['MORRIS', 'sans-serif'],
+				washington: ['WASHINGTON', 'sans-serif']
 			},
 			colors: {
 				'c-green': '#87B393',

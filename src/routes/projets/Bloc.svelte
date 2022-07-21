@@ -17,8 +17,8 @@
 		/>
 		<div
 			class="flex flex-col h-auto w-auto m-auto mt-1 
-            overflow-auto p-2
-            sm:mr-auto sm:my-auto sm:max-w-[600px] "
+				overflow-auto p-2
+				sm:mr-auto sm:my-auto sm:max-w-[600px]"
 		>
 			<h1 class="mx-auto font-medium">
 				{projet.name}

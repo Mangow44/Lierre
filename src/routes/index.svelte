@@ -13,7 +13,7 @@
 </script>
 
 <div
-	class="flex h-[calc(100vh-5rem)] w-screen pt-16
+	class="flex h-[calc(100vh-5rem)] w-full pt-16
 		min-h-[450px] min-w-[265px]"
 >
 	<img

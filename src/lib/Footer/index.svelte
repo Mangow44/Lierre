@@ -7,7 +7,7 @@
 	let socialNetworks = [
 		{ name: 'Twitter', url: 'https://twitter.com/lierre_art' },
 		{ name: 'Instagram', url: 'https://www.instagram.com/lierre_art/' },
-		{ name: 'Pinterest', url: 'ok' }
+		{ name: 'Pinterest', url: 'https://pin.it/2aZ8cTK' }
 	];
 </script>
 

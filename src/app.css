@@ -13,6 +13,11 @@ body {
 	src: url('/morris-roman/MorrisRomanBlack.otf');
 }
 
+@font-face {
+	font-family: 'WASHINGTON';
+	src: url('/washington_text/WashingtonText.ttf');
+}
+
 .landing-scale-anim {
 	animation: scale-in 0.5s ease forwards;
 }

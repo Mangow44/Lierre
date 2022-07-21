@@ -50,7 +50,9 @@
 	<!-- navigation -->
 	<ul
 		class="flex my-auto ml-auto mx-3 
-            sm:visible invisible"
+            sm:visible invisible
+			font-washington"
+		style="font-size: 20px;"
 	>
 		{#each navigation as page}
 			<li
@@ -91,7 +93,7 @@
 			class="z-10 fixed left-0 h-screen w-[60%] pt-[7rem]
 				flex flex-col 
 				sm:invisible visible
-				bg-c-cream"
+				font-washington bg-c-cream"
 		>
 			{#each navigation as page}
 				<li
