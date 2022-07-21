@@ -9,7 +9,7 @@
 
 	// travailler sur grand ecran pour mettre les max-h
 
-	// TODO RESEAUX SOCIAUX FOOTER + page contact
+	// Pinterest
 </script>
 
 <div
@@ -17,7 +17,8 @@
 		min-h-[450px] min-w-[265px]"
 >
 	<img
-		class="max-h-[100%] min-h-[100px] w-auto m-auto"
+		class="max-h-[100%] min-h-[100px] w-auto m-auto 
+			landing-scale-anim"
 		src="./banniere.png"
 		alt="Bannière de présentation : Lierre"
 	/>

@@ -10,7 +10,8 @@
 	>
 		<img
 			class="h-auto w-[15rem] m-auto
-                sm:w-[30%] sm:ml-auto"
+                sm:w-[30%] sm:ml-auto
+				fade-in-anim"
 			src={projet.src}
 			alt={projet.name}
 		/>
@@ -28,7 +29,13 @@
 
 	<div class="flex flex-wrap justify-center h-auto w-full">
 		{#each projet.pictures as pic}
-			<img class="h-[24rem] w-[24rem] m-2" style="object-fit: cover;" src={pic.src} alt={pic.alt} />
+			<img
+				class="h-[24rem] w-[24rem] m-2
+					fade-in-anim"
+				style="object-fit: cover;"
+				src={pic.src}
+				alt={pic.alt}
+			/>
 		{/each}
 	</div>
 {/if}

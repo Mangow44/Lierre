@@ -4,6 +4,11 @@
 	import Pinterest from 'svelte-material-icons/Pinterest.svelte';
 
 	let size = 21;
+	let socialNetworks = [
+		{ name: 'Twitter', url: 'https://twitter.com/lierre_art' },
+		{ name: 'Instagram', url: 'https://www.instagram.com/lierre_art/' },
+		{ name: 'Pinterest', url: 'ok' }
+	];
 </script>
 
 <div class="flex flex-col h-[5rem] w-full">
@@ -16,8 +21,16 @@
 		class="flex m-auto 
 			cursor-pointer"
 	>
-		<li class="px-1 hover:scale-110"><Twitter {size} /></li>
-		<li class="px-1 hover:scale-110"><Instagram {size} /></li>
-		<li class="px-1 hover:scale-110"><Pinterest {size} /></li>
+		{#each socialNetworks as sn}
+			<li class="px-1 hover:scale-110" on:click={() => window.open(sn.url, '_blank').focus()}>
+				{#if sn.name == 'Twitter'}
+					<Twitter {size} />
+				{:else if sn.name == 'Instagram'}
+					<Instagram {size} />
+				{:else if sn.name == 'Pinterest'}
+					<Pinterest {size} />
+				{/if}
+			</li>
+		{/each}
 	</ul>
 </div>

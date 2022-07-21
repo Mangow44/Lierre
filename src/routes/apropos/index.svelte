@@ -6,7 +6,7 @@
 	<img
 		class="h-[11rem] w-auto m-auto  
             sm:h-[15rem] sm:ml-auto
-            rounded-full"
+            fade-in-anim"
 		src="/pictures/lierre.jpeg"
 		alt="Lierre"
 	/>

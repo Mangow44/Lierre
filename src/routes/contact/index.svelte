@@ -4,7 +4,12 @@
 	import Pinterest from 'svelte-material-icons/Pinterest.svelte';
 	import EmailOutline from 'svelte-material-icons/EmailOutline.svelte';
 
-	let socialNetworks = ['Twitter', 'Instagram', 'Pinterest', 'Email'];
+	let socialNetworks = [
+		{ name: 'Twitter', url: 'https://twitter.com/lierre_art' },
+		{ name: 'Instagram', url: 'https://www.instagram.com/lierre_art/' },
+		{ name: 'Pinterest', url: 'ok' },
+		{ name: 'Email', url: 'lipazaran.is.here@gmail.com' }
+	];
 </script>
 
 <div
@@ -12,7 +17,12 @@
         min-h-[450px] min-w-[265px]"
 >
 	<div class="my-auto">
-		<img src="/pictures/croped-cat.jpg" alt="Looking at you" class="max-w-[80%] mx-auto" />
+		<img
+			src="/pictures/croped-cat.jpg"
+			alt="Looking at you"
+			class="max-w-[80%] mx-auto
+				fade-in-anim"
+		/>
 		<h1 class="text-center">Retrouvez moi sur vos réseaux sociaux.</h1>
 	</div>
 
@@ -22,25 +32,36 @@
             font-medium"
 	>
 		{#each socialNetworks as sn}
-			<li class="flex cursor-pointer hover:scale-110 my-1">
-				{#if sn == 'Twitter'}
+			<li
+				class="flex cursor-pointer hover:scale-110 my-1"
+				on:click={() => {
+					if (sn.name == 'Email') {
+						location.href = 'mailto:' + sn.url;
+						return;
+					}
+					window.open(sn.url, '_blank').focus();
+				}}
+			>
+				{#if sn.name == 'Twitter'}
 					<span class="mr-3"><Twitter size={26} /></span>
-				{:else if sn == 'Instagram'}
+				{:else if sn.name == 'Instagram'}
 					<span class="mr-3"><Instagram size={26} /></span>
-				{:else if sn == 'Pinterest'}
+				{:else if sn.name == 'Pinterest'}
 					<span class="mr-3"><Pinterest size={26} /></span>
-				{:else if sn == 'Email'}
+				{:else if sn.name == 'Email'}
 					<span class="mr-3"><EmailOutline size={26} /></span>
 				{/if}
 
-				{sn}
+				{sn.name}
 			</li>
 		{/each}
 	</ul>
 
 	<p class="m-auto font-medium text-sm my-[2rem]">
 		Site développé par
-		<span class=" underline cursor-pointer">Thomas Clouet</span>
+		<span class="underline cursor-pointer" on:click={() => 'mailto:toto44.2000@gmail.com'}>
+			Thomas Clouet
+		</span>
 		.
 	</p>
 </div>
