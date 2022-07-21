@@ -7,6 +7,8 @@
 	// en % utiliser max-w ou max-h
 	// en rem utili w ou h
 
+	// travailler sur grand ecran pour mettre les max-h
+
 	// TODO RESEAUX SOCIAUX FOOTER + page contact
 </script>
 
