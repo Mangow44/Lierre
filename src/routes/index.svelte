@@ -9,8 +9,8 @@
 
 	// travailler sur grand ecran pour mettre les max-h
 
-	// TODO redesigner la barre de scroll et la mettre en absolute pour les hauteur en vh
-	// comme ça quand la barre horizontale pop on a pas le scroll vertical qui pop avec à cause des vh
+	// todo mettre les titles des pages (onglet)
+	// mettre une garde sur la page projets vu qu'il n'y a rien
 </script>
 
 <div
