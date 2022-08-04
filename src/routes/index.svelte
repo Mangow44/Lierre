@@ -5,12 +5,11 @@
 
 	// Pour définir la taille des images
 	// en % utiliser max-w ou max-h
-	// en rem utili w ou h
-
-	// travailler sur grand ecran pour mettre les max-h
+	// en rem utiliser w ou h
 
 	// todo mettre les titles des pages (onglet)
 	// mettre une garde sur la page projets vu qu'il n'y a rien
+	// pour rendre la galerie plus fluide il faut faire apparaitres des images quand on arrive en bas de la page
 </script>
 
 <div

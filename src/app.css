@@ -8,6 +8,15 @@ body {
 	min-width: 265px;
 }
 
+.no-scroll::-webkit-scrollbar {
+	display: none; /* hrome, Safari and Opera */
+}
+
+.no-scroll {
+	-ms-overflow-style: none; /* IE and Edge */
+	scrollbar-width: none; /* Firefox */
+}
+
 @font-face {
 	font-family: 'MORRIS';
 	src: url('/morris-roman/MorrisRomanBlack.otf');

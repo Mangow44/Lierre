@@ -1,8 +1,6 @@
 <script>
 	import { goto } from '$app/navigation';
 	import { pictures } from '$lib/Pictures/pictures';
-
-	// pour rendre la galerie plus fluide il faut faire apparaitres des images quand on arrive en bas de la page
 </script>
 
 <div
