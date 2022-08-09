@@ -5,7 +5,7 @@ exports.handler = init({
 	assets: new Set(["banniere.png","favicon.png","morris-roman/MorrisRomanBlack.otf","morris-roman/MorrisRomanBlack.ttf","morris-roman/MorrisRomanBlackAlt.otf","morris-roman/MorrisRomanBlackAlt.ttf","pictures/belin-goblin.jpg","pictures/croped-cat.jpg","pictures/decor-exterieur-necropole.jpg","pictures/diablotin.png","pictures/gao_mochi.jpg","pictures/halloween-cat-painting.jpg","pictures/le_tablier.jpeg","pictures/lierre.jpeg","pictures/loretta.png","pictures/momo_the_wind_mage.png","pictures/windy-staircase.jpg","washington_text/WashingtonText-Alternates.ttf","washington_text/WashingtonText.ttf"]),
 	mimeTypes: {".png":"image/png",".otf":"font/otf",".ttf":"font/ttf",".jpg":"image/jpeg",".jpeg":"image/jpeg"},
 	_: {
-		entry: {"file":"immutable/start-c09a3a10.js","imports":["immutable/start-c09a3a10.js","immutable/chunks/index-085399b4.js","immutable/chunks/singletons-cdeec3fd.js"],"stylesheets":[]},
+		entry: {"file":"immutable/start-b7bd0996.js","imports":["immutable/start-b7bd0996.js","immutable/chunks/index-085399b4.js","immutable/chunks/singletons-cdeec3fd.js"],"stylesheets":[]},
 		nodes: [
 			() => Promise.resolve().then(() => require('../server/nodes/0.js')),
 			() => Promise.resolve().then(() => require('../server/nodes/1.js')),
